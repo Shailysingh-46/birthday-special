@@ -1,0 +1,40 @@
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  top:0;
+  font-family: 'Seaweed Script', cursive;
+  color: #c70039;
+  width: 100%;
+  padding: 20px;
+  margin:100px 0 250px 0;
+  font-size: 70px;
+
+  line-height: 0;
+}
+#myBtn {
+  width: 160px;
+  font-size: 18px;
+  padding: 12px 28px;
+  margin: 50px 0 200px 50px;
+
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 8px;
+  border: none;
+  background: #e36387;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
